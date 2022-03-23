@@ -1,0 +1,30 @@
+table,tr,td,th{
+	border-collapse:collapse;
+	border:1px solid blue;
+	padding:20px
+}
+.mark{
+	margin:auto;
+}
+th{
+	background-color:#574;
+	color:#fff;
+}
+
+#raju{
+		background-color:#887;
+		color:#fff;
+	}
+
+#mahamad{
+	background-color:#661;
+	color:#fff;
+}
+#edward{
+	background-color:red;
+	color:#fff;
+}
+#a{
+	background-color:#776;
+	color:fff;
+}

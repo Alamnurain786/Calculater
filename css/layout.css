@@ -1,0 +1,101 @@
+*{
+	margin:0;
+}
+
+#computer{
+	background-color:#4433aa;
+	text-align:center;
+    
+}
+#Laptop{
+	background-color:#5503aa;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+#Moniter{
+	background-color:#5503ff;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+#Mouse{
+	background-color:#1122ff;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+#keybord{
+	background-color:#0077ff;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+#Mic{
+	background-color:#1199ff;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+#Webcam{
+	background-color:#2288dd;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+#CPU{
+	background-color:#ffcc00;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+#Headphone{
+	background-color:#ffaa99;
+	width:75%;
+	float:left;
+	text-align:center;
+}
+
+
+#Mousepad{
+	background-color:#2a0d5f;
+	width:75%;
+	float:left;
+	text-align:center;
+}
+
+#Writeingpad{
+	background-color:#6c0d1d;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+#Iphone{
+	background-color:#777;
+	width:35%;
+	float:left;
+	text-align:center;
+}
+#Mac{
+	background-color:#555;
+	width:35%;
+	float:left;
+	text-align:center;
+}
+#Watch{
+	background-color:#999;
+	width:30%;
+	float:left;
+	text-align:center;
+}
+#Ipad{
+	background-color:#005a3b;
+	text-align:center;
+}

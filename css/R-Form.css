@@ -1,0 +1,79 @@
+h1{
+	text-align:center;
+	color:green;
+}
+#login_form fieldset{
+	border:2px solid #552;
+	padding:30px;
+	
+}
+
+#login_form div{
+	padding:20px;
+	border-bottom:1px solid #000;
+
+}
+
+login_form div input{
+	width:50%;
+	height:25px;
+}
+
+#login_form div label{
+	display:inline-block;
+	
+}
+#login_form div label[for=reg]{
+	width:250px;
+	
+}
+
+#login_form div label span{
+	color:red;
+}
+
+#login_form div input[type=radio]{
+	width:10%;
+	height:20px;
+}
+.input{
+	width:50%;
+	height:25px;
+
+}
+.label{
+	width:200px;
+}
+#btn{
+	width:500px;
+}
+#a{
+	width:100px;
+	padding:0px 50px;
+}
+#reg{
+	padding:0px 30px;
+}
+#login_form .button{
+	width:75px;
+	padding:10px;
+	height:40px;
+	color:#fff;
+	border:none;
+	border-radius:20px;
+	
+}
+
+#login_form #submit {
+	background-color:#6a2;
+}
+
+#login_form #reset {
+	margin-left:50px;
+	background-color:#a10;
+}
+
+#login_form div:last-child{
+	border-bottom:none;
+
+}

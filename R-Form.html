@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<link rel="stylesheet" href="css/R-Form.css" />
+	</head>
+	<body>
+	<h1>TU Registration Form</h1>
+		<form id="login_form" class="login_form" name="login_form" method="post" action=""
+				enctype="multipart/form-data">
+				<fieldset>
+						<legend>Registration Form</legend>
+						<div>
+							<label for="reg" class="label" id="reg">Do YOU Have Registration No</label>
+							<input type="radio" name="gender"/> Yes
+							<input type="radio" name="gender"/> No
+						</div>
+						<div>
+							<label for="name" class="label">NAME <span>*</span></label>
+							<input type="text" id="name" class="name" name="name"
+							placeholder="First Name" required/>
+							<input type="text" id="name" class="name" name="name"
+							placeholder="Middle Name" required/>
+							<input type="text" id="name" class="name" name="name"
+							placeholder="Last Name" required/>
+						</div>
+						<div>
+							<label class="label">Date of Birth <span>*</span></label>
+							<input type="text" id="birth" class="birth"
+							placeholder="YYYY-MM-DD" required/>
+						</div>
+						<div>
+							<label for="phone" class="label">Phone <span>*</span></label>
+							<input type="number" id="phone" class="input" name="phone" 
+							placeholder="Enter phone"/>
+						</div>
+						<div>
+							<label for="email" class="label">Email</label>
+							<input type="email" id="email" class="input" name="email" 
+							placeholder="Enter email"/>
+						</div>
+						<div>
+							<label for="gender" class="label">Gender <span>*</span></label>
+							<select id="gender">
+								<option>Select Gender</option>
+								<option>Male</option>
+								<option>Female</option>
+								<option>Other</option>
+							</select>
+							<label id="a">Ethnicity</label>
+							<input type="text" class="" name=""
+							placeholder="" required/>
+						</div>
+						
+						<div>
+							<label class="label" class="label">Father Name</label>
+							<input type="text" id="Father" class="input" name="Father"
+							placeholder="Enter Father Name" required/>
+						</div>
+						<div>
+							<label class="label">Collage/Campus <span>*</span></label>
+							<input type="text" id="collage" class="input" name="collage"
+							placeholder="Enter Collage/Campus Name" required/>
+						</div>
+						<div>
+							<label class="label">Program <span>*</span></label>
+							<input type="text" id="Program" class="input" name="Program"
+							placeholder="Enter Your Program" required/>
+						</div>
+						<div>
+							<label class="label">Part <span>*</span></label>
+							<input type="text" id="Part" class="input" name="Part"
+							placeholder="Enter Your year/Semester" required/>
+						</div>
+						<div>
+							<label class="label">Registration No <span>*</span></label>
+							<input type="text" id="Registration" class="input" name="Registration"
+							placeholder="Enter Your Registration no" required/>
+						</div>
+						<div>
+							<label class="label">Symbol No <span>*</span></label>
+							<input type="text" id="Symbol" class="input" name="Symbol"
+							placeholder="Enter Your Symbol no" required/>
+						</div>
+						<div>
+							<label for="image"class="label"> DOC Image <span>*</span></label>
+							<input type="file" id="image" class="image" name="image" />
+						</div>
+						<div>
+							<label for="image" class="label"> Bank Voucher <span>*</span></label>
+							<input type="file" id="Bank" class="Bank" name="Bank" />
+						</div>
+						<div>
+							<label for="gender" class="label">Exam Type</label>
+							<input type="radio" name="gender"/> Reguar
+							<input type="radio" name="gender"/> Partial
+						</div>
+						<div>
+							<label id=btn></label>
+							<input type="submit" id="submit" class="button" name="submit" value"Register" />
+							<input type="reset" id="reset" class="button" name="reset" />
+						</div>
+				</fieldset>
+		</form>
+	</body>
+</html>
